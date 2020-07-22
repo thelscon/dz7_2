@@ -21,4 +21,4 @@ let getAllLength = thisObject => {
     return allLenght ;
 } ;
 
-alert ( getAllLength ( currentObject ) ) ;
+console.log ( 'Объект - ', currentObject , `\n Длина всех строковых значений - `, getAllLength ( currentObject ) ) ;
